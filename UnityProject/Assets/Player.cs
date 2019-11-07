@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     [Header("速度"), Range(1, 100)]
     public int speed = 50;
-    [Header("跳躍"), Range(1, 100)]
+    [Header("跳躍"), Range(1, 200)]
     public float jump = 2.5f;
     public bool isGround;
     private Rigidbody r3d;
